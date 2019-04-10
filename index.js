@@ -13,7 +13,7 @@ $(function() {
     $(this).closest('li').toggleClass('shopping-item shopping-item__checked');
   });
   $('.shopping-item-delete').on('click', function(event) {
-    $(this).closest('.shopping-item').remove('li');
+    $(this).closest('li').remove('li');
   });  
 });
 
